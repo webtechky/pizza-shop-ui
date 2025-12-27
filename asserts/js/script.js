@@ -22,3 +22,7 @@ window.addEventListener('scroll', () => {
         }
     });
 });
+
+const yearChange = document.getElementById('year');
+const currentYear = new Date().getFullYear();
+yearChange.textContent = currentYear;
